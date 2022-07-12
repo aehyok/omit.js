@@ -8,4 +8,7 @@ function omit(obj, fields) {
   return shallowCopy;
 }
 
+export const sum = (x, y) => {
+  return x + y;
+};
 export default omit;
